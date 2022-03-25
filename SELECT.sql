@@ -9,4 +9,4 @@ WHERE collection_year BETWEEN 2018 AND 2020;
 SELECT nickname  FROM singer
 WHERE length(nickname)=length(REPLACE(nickname,' ',''));
 SELECT  track_name FROM track
-WHERE track_name ILIKE '%мой%' OR track_name ILIKE '%my%';
+WHERE track_name ILIKE '%РјРѕР№%' OR track_name ILIKE '%my%';

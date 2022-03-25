@@ -1,20 +1,20 @@
 INSERT INTO genre(genre_name) 
 VALUES ('russian rap'), ('pop'), ('rock'), ('R&B'), ('country');
 INSERT INTO singer(nickname) 
-VALUES ('Баста'), ('Miyagi'), ('Zivert'), ('Ed Sheeran'),
-('The Weeknd'), ('Rihanna'), ('Би-2'), ('Queen'), ('Johnny Cash'), ('Nancy Sinatra');
+VALUES ('Р‘Р°СЃС‚Р°'), ('Miyagi'), ('Zivert'), ('Ed Sheeran'),
+('The Weeknd'), ('Rihanna'), ('Р‘Рё-2'), ('Queen'), ('Johnny Cash'), ('Nancy Sinatra');
 INSERT INTO album(album_name, album_year) 
 VALUES ('40', 2020), ('Buster Keaton', 2019), ('Vinyl #2', 2021), ('Happier', 2018), ('Dawn FM', 2022),
-('Lemon', 2018), ('Я никому не верю', 2022), ('The Miracle', 1989), ('Remember', 2021), ('California Girl', 2002);
+('Lemon', 2018), ('РЇ РЅРёРєРѕРјСѓ РЅРµ РІРµСЂСЋ', 2022), ('The Miracle', 1989), ('Remember', 2021), ('California Girl', 2002);
 INSERT INTO track(album, track_name, track_time) 
-VALUES (1, 'С самых низов', 339), (1, 'Время догонит нас', 366), (2, 'Captain', 214),
-(2, 'Самурай', 164), (3, 'Рокки', 177), (3, 'Forever Young', 180), (4, 'Happier', 206), (5, 'Take My Breath', 339),
-(5, 'Sacrifice', 188), (6, 'Lemon', 226), (7, 'Мой друг', 292), (7, 'Я никому не верю', 368),
+VALUES (1, 'РЎ СЃР°РјС‹С… РЅРёР·РѕРІ', 339), (1, 'Р’СЂРµРјСЏ РґРѕРіРѕРЅРёС‚ РЅР°СЃ', 366), (2, 'Captain', 214),
+(2, 'РЎР°РјСѓСЂР°Р№', 164), (3, 'Р РѕРєРєРё', 177), (3, 'Forever Young', 180), (4, 'Happier', 206), (5, 'Take My Breath', 339),
+(5, 'Sacrifice', 188), (6, 'Lemon', 226), (7, 'РњРѕР№ РґСЂСѓРі', 292), (7, 'РЇ РЅРёРєРѕРјСѓ РЅРµ РІРµСЂСЋ', 368),
 (8, 'My Baby Does Me', 202), (8, 'Party', 144), (9, 'Remember Me', 119), (9, 'Seasons Of My Heart', 149),
 (10, 'How Are Things In California?', 150);
 INSERT INTO collection(collection_name, collection_year)
-VALUES ('Хиты года', 2020), ('ТОП отечественных песен', 2022), ('ТОП зарубежных песен', 2018),
-('ТОП 3', 2019), ('Вдохновляющие', 2021), ('Best of the best', 2020), ('Почувствуй силу', 2019), ('ТОП РОК', 2021);
+VALUES ('РҐРёС‚С‹ РіРѕРґР°', 2020), ('РўРћРџ РѕС‚РµС‡РµСЃС‚РІРµРЅРЅС‹С… РїРµСЃРµРЅ', 2022), ('РўРћРџ Р·Р°СЂСѓР±РµР¶РЅС‹С… РїРµСЃРµРЅ', 2018),
+('РўРћРџ 3', 2019), ('Р’РґРѕС…РЅРѕРІР»СЏСЋС‰РёРµ', 2021), ('Best of the best', 2020), ('РџРѕС‡СѓРІСЃС‚РІСѓР№ СЃРёР»Сѓ', 2019), ('РўРћРџ Р РћРљ', 2021);
 INSERT INTO s_g
 VALUES (1,1), (1,2), (2,3), (2,4), (2,6), (3,7), (3,8), (4,3), (4,5), (4,6), (5,9), (5,10);
 INSERT INTO s_a
